@@ -13,15 +13,36 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+
   /* выше установили ограничения для секции */
 }
+.header_text{
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 64px auto 30px;
+}
+.logo_place {
+  position: absolute;
+  width: 228px;
+  height: 32px;
 
+}
+
+.title {
+width: 730px;
+font-size: 102px;
+line-height: 96px;
+font-weight: 400;
+}
+.subtitle {
+width: 338px;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
 }
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
