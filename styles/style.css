@@ -62,7 +62,6 @@ body{
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
-  
   z-index: 1;
 }
 
@@ -88,7 +87,7 @@ body{
   width: 765px;
   background-image: url('../images/header-image.png');
   background-size: cover;
-  }
+}
 
 .description {
   margin: 0;
@@ -110,7 +109,6 @@ body{
     font-size: 18px;
     font-weight: normal;
     color: #2f80ed;
-  
   }
   
   .two-colomns__main-text {
@@ -168,8 +166,8 @@ body{
     line-height: 34px;
     text-align: center;
     align-items: center;
-
   }
+
   .table {
     margin: 0;
     padding: 0;
@@ -220,8 +218,8 @@ body{
   width: 648px;
   text-align: center;
   z-index: 1;
-  
 }
+
 .feynman-text__subtitle{
   font-size: 36px;
   font-weight: 400;
