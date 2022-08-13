@@ -343,6 +343,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
 .footer__colomn-heading {
   margin-bottom: 20px;
   line-height: 30px;
@@ -350,7 +351,8 @@ p {
   font-weight: 600;
   color: white;
 }
-.footer__colomn-links{
+
+.footer__colomn-links {
   display: flex;
   flex-direction: column;
 }
