@@ -1,5 +1,5 @@
 @import url(./blocks/techniques/techniques.css);
-
+@import url(./blocks/video/video.css);
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -127,7 +127,7 @@
   font-weight: bold;
 }
 
-.two-columns__paragraph:not(:last-of-type) {
+.two-columns__paragraph:nth-child(3n) {
   margin-bottom: 30px;
 }
 
