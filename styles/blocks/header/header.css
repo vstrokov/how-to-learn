@@ -4,7 +4,6 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
 .header {
   margin: 0;
   display: flex;
@@ -66,7 +65,8 @@
   top: 64px;
   height: 568px;
   width: 568px;
-    background-color: #2f80ed;
+  animation: rotation 20s linear infinite;
+  background-color: #2f80ed;
 }
 
 .header__main-illustration {

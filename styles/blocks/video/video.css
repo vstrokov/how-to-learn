@@ -7,7 +7,6 @@
 .video {
 margin-top: 100px;
   width: 100%;
-  background-color:blueviolet;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +19,7 @@ text-align: center;
 }
 .video__iframes {
 margin-top: 50px;
+transform: translate(0px, 50px);
 }
 
 .video__iframe {
@@ -29,4 +29,4 @@ margin-top: 50px;
 
 .video__iframe:not(:last-of-type) {
   margin-right: 20px;
-}*/
+}

@@ -10,7 +10,6 @@
   display: flex;
   width: 80%;
   flex-direction: column;
-  background-color: rgb(124, 124, 162);
   align-items: center;
 }
 .techniques-title {
@@ -18,50 +17,41 @@
   height: 100%;
   width: 60%;
   text-align: center;
-  border: 1px solid red;
 }
 .techniques-subtitle {
   width: 60%;
   align-items: center;
-  border: 1px solid red;
 }
 .card {
   width: 920px;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid rgb(0, 21, 255);
-  
+
 }
 .card__item {
   width: 240px;
   margin-right: 100px;
-  
-  background-color: rgb(240, 192, 0);
 }
 .card__item:nth-child(3n) {
     margin: 0px;
-  } 
+  }
 
 .card__image {
   margin: 60px 40px 43px;
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background-color: aqua;
-  border: 1px solid red;
   background-size: cover;
 }
 
 .card__title {
   text-align: center;
-  border: 1px solid rgb(3, 58, 1);
 }
 .card__description {
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
   text-align: center;
-  order: 1px solid rgb(91, 6, 219);
 }
 
 .card__heading {
