@@ -10,23 +10,4 @@ margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-}
-.video-title {
-margin: 0 auto;
-align-items: center;
-text-align: center;
-}
-.video__iframes {
-margin-top: 50px;
-transform: translate(0px, 50px);
-}
-
-.video__iframe {
-  margin-right: 20px;
-}
-
-
-.video__iframe:not(:last-of-type) {
-  margin-right: 20px;
 }
