@@ -1,9 +1,25 @@
 @import url(./blocks/header/header.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__square-pic/header__square-pic.css);
+@import url(./blocks/header/__subtitle/header__subtitle.css);
+@import url(./blocks/header/__title/header__title.css);
+@import url(./blocks/header/__main-illustration/header__main-illustration.css);
+
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/logo/__place_header/logo__place_header.css);
+@import url(./blocks/logo/__place_footer/logo__place_footer.css);
+
+@import url(./blocks/table/table.css);
+@import url(./blocks/table/__cell/table__cell.css);
+@import url(./blocks/table/__heading/table__heading.css);
+@import url(./blocks/table/__text/table__text.css);
+
+
 @import url(./blocks/techniques/techniques.css);
 
 @import url(./blocks/description/description.css);
-@import url(./blocks/description/__two-columns/two-columns.css);
-@import url(./blocks/description/__two-columns/two-columns__brief/two-columns__brief.css);
+@import url(./blocks/description/__two-columns/description__two-columns.css);
+@import url(./blocks/description/__two-columns/two-columns_brief/two-columns__brief.css);
 @import url(./blocks/description/__two-columns/two-columns__main-text/two-columns__main-text.css);
 @import url(./blocks/description/__two-columns/two-columns__paragraph/two-columns__paragraph.css);
 @import url(./blocks/description/__two-columns/two-columns__span-accent/two-columns__span-accent.css);
@@ -19,7 +35,17 @@
 @import url(./blocks/resources/resources.css);
 @import url(./blocks/kaufman/kaufman.css);
 @import url(./blocks/rotation/rotation.css);
+
 @import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__columns/footer__columns.css);
+@import url(./blocks/footer/__author/footer__author.css);
+@import url(./blocks/footer/__column-heading/footer__column-heading.css);
+@import url(./blocks/footer/__column-links/footer__column-links.css);
+@import url(./blocks/footer/__column-links/_column-link/footer__column-link.css);
+@import url(./blocks/footer/__columns/_content_copyright/footer__column_content_copyright.css);
+@import url(./blocks/footer/__columns/_content_info/footer__column_content_info.css);
+@import url(./blocks/footer/__social-icon/footer__social-icon.css);
+
 
 .page {
   min-width: 1100px;
