@@ -1,64 +1,6 @@
 @import url(./blocks/rotation/rotation.css);
 
 
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-
-.section-title {
-  margin: 0 0 20px;
-  /* мне както ведь надо отбить section-subtitle*/
-  width: 60%;
-  text-align: center;
-  font-size: 60px;
-  font-weight: 600;
-  line-height: 1.15;
-}
-
-.section-subtitle {
-  margin: 0;
-  width: 60%;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
-  text-align: center;
-}
-
-.table {
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-}
-
-.table__cell {
-  margin-top: 60px;
-  width: 250px;
-  list-style-type: none;
-}
-
-.table__heading {
-  /* Таблицы заголовок */
-  margin: 0;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.15;
-}
-
-.table__text {
-  /* Таблицы текст*/
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
-  margin: 20px 0px 0px 0px;
-}
-
 .kaufman {
   position: relative;
   display: flex;
@@ -69,36 +11,6 @@
   flex-direction: column;
   overflow: hidden;
  }
-
-.section-title_theme_dark {
-  color: white;
-  z-index: 2;
-}
-
-.section-subtitle_theme_dark {
-  color: white;
-  z-index: 2;
-}
-
-.table__cell_theme_dark {
-  margin-top: 80px;
-  width: 200px;
-  list-style-type: none;
-  color: white;
-  z-index: 2;
-}
-
-.table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-style: 600;
-}
-
-.table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-style: normal;
-}
 
 .kaufman__triangle {
   width: 877px;
