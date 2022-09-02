@@ -42,15 +42,15 @@
 
 @import url(./blocks/digits/digits.css);
 
-@import url(./blocks//khan/khan.css);
-@import url(./blocks//khan/__author/khan__author.css);
-@import url(./blocks//khan/__book-container/khan__book-container.css);
-@import url(./blocks//khan/__book-pic/khan__book-pic.css);
-@import url(./blocks//khan/__buy-link/khan__buy-link.css);
-@import url(./blocks//khan/__container/khan__container.css);
-@import url(./blocks//khan/__quote/khan__quote.css);
-@import url(./blocks//khan/__quote-author/khan__quote-author\ .css);
-@import url(./blocks//khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(./blocks/khan/khan.css);
+@import url(./blocks/khan/__author/khan__author.css);
+@import url(./blocks/khan/__book-container/khan__book-container.css);
+@import url(./blocks/khan/__book-pic/khan__book-pic.css);
+@import url(./blocks/khan/__buy-link/khan__buy-link.css);
+@import url(./blocks/khan/__container/khan__container.css);
+@import url(./blocks/khan/__quote/khan__quote.css);
+@import url(./blocks/khan/__quote-author/khan__quote-author\ .css);
+@import url(./blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 
 @import url(./blocks/resources/resources.css);
 @import url(./blocks/resources/__link/resources__link.css);
@@ -83,9 +83,10 @@
 @import url(./blocks/card/__description/card__description.css);
 @import url(./blocks/card/__heading/card__heading.css);
 @import url(./blocks/card/__image/card__image.css);
-@import url(./blocks/card/__item/item__image.css);
+@import url(./blocks/card/__item/card__item.css);
 @import url(./blocks/card/__title/card__title.css);
 
+@import url(./blocks/hyperlink/hyperlink.css);
 
 
 .page {
