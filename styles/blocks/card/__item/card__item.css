@@ -2,6 +2,8 @@
 .card__item {
   width: 240px;
   margin-right: 100px;
+  list-style-type: none;
+
 }
 .card__item:nth-child(3n) {
     margin: 0px;
