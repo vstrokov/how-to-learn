@@ -46,8 +46,6 @@
 @import url(../blocks/description/description.css);
 
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/techniques/__techniques-title/techniques-title.css);
-@import url(../blocks/techniques/__techniques-subtitle/techniques-subtitle.css);
 
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
