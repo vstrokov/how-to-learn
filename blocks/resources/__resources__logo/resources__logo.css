@@ -1,0 +1,13 @@
+
+.resources__logo {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  width: 270px;
+  height: 38px;
+}
+
+.resources__logo:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
