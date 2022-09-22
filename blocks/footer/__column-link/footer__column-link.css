@@ -3,6 +3,10 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  cursor: pointer;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  opacity: 50%;
+  cursor: pointer;
 }
